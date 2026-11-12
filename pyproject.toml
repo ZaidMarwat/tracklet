@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tracklet"
+version = "0.1.0"
+description = "Multi-target radar tracking: IMM-EKF, GNN association with a from-scratch Hungarian solver, M-of-N track management"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.22"]
+
+[tool.setuptools]
+packages = ["tracklet"]
